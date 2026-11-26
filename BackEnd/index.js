@@ -1,8 +1,8 @@
-import express from "express"
+import { app } from "./app"
 
-const app=express()
-app.use(express.json())
-app.use(cookieParser())
+
+
+const port=4000
 app.listen(port,()=>{
     console.log("App is running")
 })
